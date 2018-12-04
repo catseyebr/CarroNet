@@ -1,0 +1,61 @@
+<OTA_VehResRS Version="2.001" SequenceNmbr="BF7E6CA1-A881-446F-8B9E-45FB2944D2EC">
+    <Success />
+    <VehResRSCore>
+        <VehReservation>
+            <VehSegmentCore Status="Confirmed">
+                <ConfID ID="17014" Type="8" />
+                <RentalRate>
+                    <RateDistance Unlimited="true" />
+                    <VehicleCharges>
+                        <VehicleCharge CurrencyCode="BRL" TaxInclusive="false" Purpose="1" Amount="252.00">
+                            <Calculation Quantity="4" UnitName="Day" UnitCharge="63.00" />
+                            <TaxAmounts>
+                                <TaxAmount Description="Tax" Percentage="0.00" Total="0.00" />
+                            </TaxAmounts>
+                        </VehicleCharge>
+                    </VehicleCharges>
+                </RentalRate>
+                <TotalCharge CurrencyCode="BRL" RateTotalAmount="252.00" EstimatedTotalAmount="252.00" />
+                <Vehicle Code="5" AirConditionInd="true" TransmissionType="Manual" PassengerQuantity="5">
+                    <PictureURL>http://www.rdcar.com.br/images/grupos/5.jpg</PictureURL>
+                    <VehClass Size="34" />
+                    <VehMakeModel Code="101" Name="Hyundai HB20 ou similar 1.0 COM AR CONDICIONADO, Direção Hidráulica , Travas e vidros elétricos - B" />
+                    <VehType VehicleCategory="1" />
+                </Vehicle>
+                <VehRentalCore ReturnDateTime="2017-09-10T09:00:00" PickUpDateTime="2017-09-06T18:00:00">
+                    <PickUpLocation LocationCode="GYN" />
+                    <ReturnLocation LocationCode="GYN" />
+                </VehRentalCore>
+                <Vendor Code="490" CompanyShortName="Karper" />
+            </VehSegmentCore>
+            <VehSegmentInfo>
+                <LocationDetails Name="KARPER ALUGUEL DE VEÍCULOS S/A GOIANIA" Code="GYN" CodeContext="Pickup Location" AtAirport="false">
+                    <Address>
+                        <AddressLine>Rua America do Sul, </AddressLine>
+                        <AddressLine> Quadra 47  Lote 32 Setor Santa Genoveva</AddressLine>
+                        <CityName>GOIÂNIA</CityName>
+                        <CountryName>BRASIL</CountryName>
+                        <County>SANTA GENOVEVA</County>
+                        <PostalCode>74672-340</PostalCode>
+                        <StateProv StateCode="GO">GOIÁS</StateProv>
+                    </Address>
+                    <Email>operacionalgyn@karpercar.com.br</Email>
+                    <Telephone CountryAccessCode="55" AreaCityCode="62" PhoneNumber="39245250" />
+                </LocationDetails>
+                <LocationDetails Name="KARPER ALUGUEL DE VEÍCULOS S/A GOIANIA" Code="GYN" CodeContext="Return Location" AtAirport="false">
+                    <Address>
+                        <AddressLine>Rua America do Sul, </AddressLine>
+                        <AddressLine> Quadra 47  Lote 32 Setor Santa Genoveva</AddressLine>
+                        <CityName>GOIÂNIA</CityName>
+                        <CountryName>BRASIL</CountryName>
+                        <County>SANTA GENOVEVA</County>
+                        <PostalCode>74672-340</PostalCode>
+                        <StateProv StateCode="GO">GOIÁS</StateProv>
+                    </Address>
+                    <Email>operacionalgyn@karpercar.com.br</Email>
+                    <Telephone CountryAccessCode="55" AreaCityCode="62" PhoneNumber="39245250" />
+                </LocationDetails>
+            </VehSegmentInfo>
+        </VehReservation>
+    </VehResRSCore>
+</OTA_VehResRS>

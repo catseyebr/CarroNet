@@ -1,0 +1,31 @@
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <Cotar xmlns="http://tempuri.org/">
+            <viagem>
+                <NumPassageiros>2</NumPassageiros>
+                <NumPassageirosMaiores>1</NumPassageirosMaiores>
+                <IdadeMaiores>38</IdadeMaiores>
+                <PlanoFamilia>N</PlanoFamilia>
+                <PlanoGrupo>N</PlanoGrupo>
+                <Inicio>11/15/2013</Inicio>
+                <Final>11/26/2013</Final>
+                <File></File>
+                <Origem>1</Origem>
+                <Destino>
+                    <string>425</string>
+                </Destino>
+                <Finalidade>9</Finalidade>
+                <verTodasCotizaciones>1</verTodasCotizaciones>
+                <Ordem>C</Ordem>
+                <IdFiliado>27352</IdFiliado>
+                <PAISID>1</PAISID>
+                <idPlan>1234</idPlan>
+                <Cupon></Cupon>
+                <MedioTransporte>A</MedioTransporte>
+                <Lingua>1</Lingua>
+                <TipoRetorno>1</TipoRetorno>
+                <IdUser>815</IdUser>
+            </viagem>
+        </Cotar>
+    </soap:Body>
+</soap:Envelope>

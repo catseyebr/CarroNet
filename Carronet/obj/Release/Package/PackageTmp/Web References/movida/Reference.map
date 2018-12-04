@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://xml.movida.com.br/movida/ws3/?wsdl" filename="item.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehAvailRateRQ.xsd" filename="OTA2013B.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehCancelRQ.xsd" filename="OTA2013B0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehCancelRS.xsd" filename="OTA2013B1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehModifyRQ.xsd" filename="OTA2013B2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehResRQ.xsd" filename="OTA2013B3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocSearchRQ.xsd" filename="OTA2013B4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRetResRS.xsd" filename="OTA2013B5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_SimpleTypes.xsd" filename="OTA2013B6.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_CommonTypes.xsd" filename="OTA2013B7.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRateRuleRQ.xsd" filename="OTA2013B8.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehAvailRateRS.xsd" filename="OTA2013B9.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRateRuleRS.xsd" filename="OTA2013B10.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehResRS.xsd" filename="OTA2013B11.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocDetailRQ.xsd" filename="OTA2013B12.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehModifyRS.xsd" filename="OTA2013B13.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehicleCommonTypes.xsd" filename="OTA2013B14.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRetResRQ.xsd" filename="OTA2013B15.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_CommonPrefs.xsd" filename="OTA2013B16.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocSearchRS.xsd" filename="OTA2013B17.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_Lists.xsd" filename="OTA2013B18.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocDetailRS.xsd" filename="OTA2013B19.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

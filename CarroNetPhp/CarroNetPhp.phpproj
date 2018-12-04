@@ -1,0 +1,201 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>CarroNetPhp</Name>
+    <ProjectGuid>{331813ec-c583-4eab-92d4-aedb8bdfcbf8}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.1</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="index.php" />
+    <Compile Include="locadoras\consultar.php" />
+    <Compile Include="locadoras\ConsultaWs.php" />
+    <Compile Include="locadoras\Coverage.php" />
+    <Compile Include="locadoras\DadosTarifaMulti.php" />
+    <Compile Include="locadoras\Data.php" />
+    <Compile Include="locadoras\Fee.php" />
+    <Compile Include="locadoras\Locadora.php" />
+    <Compile Include="locadoras\LocadoraResponse.php" />
+    <Compile Include="locadoras\Periodo.php" />
+    <Compile Include="locadoras\pesquisa.php" />
+    <Compile Include="locadoras\tarifamulti.php" />
+    <Compile Include="locadoras\TarifaOnlineWs.php" />
+    <Compile Include="locadoras\VehicleCharges.php" />
+    <Compile Include="locadoras\VendorAvail.php" />
+    <Compile Include="webservices\alamo_cancelar.php" />
+    <Compile Include="webservices\alamo_pesquisa.php" />
+    <Compile Include="webservices\alamo_reserva.php" />
+    <Compile Include="webservices\alamo_visualizar.php" />
+    <Compile Include="webservices\avisus_cancelar.php" />
+    <Compile Include="webservices\avisus_disponibilidade.php" />
+    <Compile Include="webservices\avisus_reserva.php" />
+    <Compile Include="webservices\avisus_visualizar.php" />
+    <Compile Include="webservices\avis_cancelar.php" />
+    <Compile Include="webservices\avis_disponibilidade.php" />
+    <Compile Include="webservices\avis_lojas.php" />
+    <Compile Include="webservices\avis_reserva.php" />
+    <Compile Include="webservices\avis_visualizar.php" />
+    <Compile Include="webservices\braspag_encode.php" />
+    <Compile Include="webservices\budget_cancelar.php" />
+    <Compile Include="webservices\budget_disponibilidade.php" />
+    <Compile Include="webservices\budget_reserva.php" />
+    <Compile Include="webservices\budget_visualizar.php" />
+    <Compile Include="webservices\cielo_cancelar.php" />
+    <Compile Include="webservices\cielo_consulta.php" />
+    <Compile Include="webservices\cielo_reserva.php" />
+    <Compile Include="webservices\cielo_transacao.php" />
+    <Compile Include="webservices\cielo_transacao_teste.php" />
+    <Compile Include="webservices\cmnet_detalhes_hoteis.php" />
+    <Compile Include="webservices\cmnet_pesquisa_hoteis.php" />
+    <Compile Include="webservices\fleetmax_cancelar.php" />
+    <Compile Include="webservices\fleetmax_pesquisa.php" />
+    <Compile Include="webservices\fleetmax_reserva.php" />
+    <Compile Include="webservices\fleetmax_visualizar.php" />
+    <Compile Include="webservices\foco_cancelar.php" />
+    <Compile Include="webservices\foco_pesquisa.php" />
+    <Compile Include="webservices\foco_reserva.php" />
+    <Compile Include="webservices\foco_visualizar.php" />
+    <Compile Include="webservices\gmc_pesquisa.php" />
+    <Compile Include="webservices\gmc_reserva.php" />
+    <Compile Include="webservices\hertzbr_cancelar.php" />
+    <Compile Include="webservices\hertzbr_lojas.php" />
+    <Compile Include="webservices\hertzbr_lojas_pesquisa.php" />
+    <Compile Include="webservices\hertzbr_pesquisa.php" />
+    <Compile Include="webservices\hertzbr_reserva.php" />
+    <Compile Include="webservices\hertzbr_visualizar.php" />
+    <Compile Include="webservices\hertz_alterar.php" />
+    <Compile Include="webservices\hertz_cancelar.php" />
+    <Compile Include="webservices\hertz_pesquisa.php" />
+    <Compile Include="webservices\hertz_reserva.php" />
+    <Compile Include="webservices\hertz_visualizar.php" />
+    <Compile Include="webservices\holiday_pesquisa.php" />
+    <Compile Include="webservices\jimpisoft_cancelar.php" />
+    <Compile Include="webservices\jimpisoft_cities.php" />
+    <Compile Include="webservices\jimpisoft_countries.php" />
+    <Compile Include="webservices\jimpisoft_groups.php" />
+    <Compile Include="webservices\jimpisoft_groups_details.php" />
+    <Compile Include="webservices\jimpisoft_lojas.php" />
+    <Compile Include="webservices\jimpisoft_pesquisa.php" />
+    <Compile Include="webservices\jimpisoft_reserva.php" />
+    <Compile Include="webservices\jimpisoft_stations.php" />
+    <Compile Include="webservices\jimpisoft_station_details.php" />
+    <Compile Include="webservices\jimpisoft_visualizar.php" />
+    <Compile Include="webservices\layum_teste.php" />
+    <Compile Include="webservices\localiza_cancelar.php" />
+    <Compile Include="webservices\localiza_lojas.php" />
+    <Compile Include="webservices\localiza_lojas_pesquisa.php" />
+    <Compile Include="webservices\localiza_pesquisa.php" />
+    <Compile Include="webservices\localiza_reserva.php" />
+    <Compile Include="webservices\localiza_visualizar.php" />
+    <Compile Include="webservices\maggi_cancelar.php" />
+    <Compile Include="webservices\maggi_lojas.php" />
+    <Compile Include="webservices\maggi_pesquisa.php" />
+    <Compile Include="webservices\maggi_reserva.php" />
+    <Compile Include="webservices\maggi_visualizar.php" />
+    <Compile Include="webservices\movida_cancelar.php" />
+    <Compile Include="webservices\movida_pesquisa.php" />
+    <Compile Include="webservices\movida_reserva.php" />
+    <Compile Include="webservices\movida_visualizar.php" />
+    <Compile Include="webservices\nacional_cancelar.php" />
+    <Compile Include="webservices\nacional_lojas_pesquisa.php" />
+    <Compile Include="webservices\nacional_pesquisa.php" />
+    <Compile Include="webservices\nacional_reserva.php" />
+    <Compile Include="webservices\nacional_visualizar.php" />
+    <Compile Include="webservices\parser.php" />
+    <Compile Include="webservices\rdcars_cancelar.php" />
+    <Compile Include="webservices\rdcars_pesquisa.php" />
+    <Compile Include="webservices\rdcars_pesquisateste.php" />
+    <Compile Include="webservices\rdcars_reserva.php" />
+    <Compile Include="webservices\rdcars_visualizar.php" />
+    <Compile Include="webservices\seguroviage_cotar.php" />
+    <Compile Include="webservices\seguroviage_location.php" />
+    <Compile Include="webservices\teste.php" />
+    <Compile Include="webservices\thrifty_pesquisa.php" />
+    <Compile Include="webservices\thrifty_reserva.php" />
+    <Compile Include="webservices\unidas_cancelar.php" />
+    <Compile Include="webservices\unidas_lojas_pesquisa.php" />
+    <Compile Include="webservices\unidas_pesquisa.php" />
+    <Compile Include="webservices\unidas_reserva.php" />
+    <Compile Include="webservices\unidas_visualizar.php" />
+    <Compile Include="webservices\webservice_handler.php" />
+    <Compile Include="webservices\webservice_handler\alamo.php" />
+    <Compile Include="webservices\webservice_handler\avis.php" />
+    <Compile Include="webservices\webservice_handler\avisus.php" />
+    <Compile Include="webservices\webservice_handler\braspag.php" />
+    <Compile Include="webservices\webservice_handler\budget.php" />
+    <Compile Include="webservices\webservice_handler\cielo.php" />
+    <Compile Include="webservices\webservice_handler\cmnet.php" />
+    <Compile Include="webservices\webservice_handler\exception.php" />
+    <Compile Include="webservices\webservice_handler\factory.php" />
+    <Compile Include="webservices\webservice_handler\fleetmax.php" />
+    <Compile Include="webservices\webservice_handler\foco.php" />
+    <Compile Include="webservices\webservice_handler\gmc.php" />
+    <Compile Include="webservices\webservice_handler\hertz.php" />
+    <Compile Include="webservices\webservice_handler\hertzbr.php" />
+    <Compile Include="webservices\webservice_handler\holiday.php" />
+    <Compile Include="webservices\webservice_handler\jimpisoft.php" />
+    <Compile Include="webservices\webservice_handler\layum.php" />
+    <Compile Include="webservices\webservice_handler\localiza.php" />
+    <Compile Include="webservices\webservice_handler\maggi.php" />
+    <Compile Include="webservices\webservice_handler\movida.php" />
+    <Compile Include="webservices\webservice_handler\nacional.php" />
+    <Compile Include="webservices\webservice_handler\rdcars.php" />
+    <Compile Include="webservices\webservice_handler\seguroviage.php" />
+    <Compile Include="webservices\webservice_handler\thrifty.php" />
+    <Compile Include="webservices\webservice_handler\unidas.php" />
+    <Compile Include="webservices\webservice_handler\yes.php" />
+    <Compile Include="webservices\xml_handler.php" />
+    <Compile Include="webservices\xml_handler\alamo.php" />
+    <Compile Include="webservices\xml_handler\avis.php" />
+    <Compile Include="webservices\xml_handler\avisus.php" />
+    <Compile Include="webservices\xml_handler\bck_movida.php" />
+    <Compile Include="webservices\xml_handler\braspag.php" />
+    <Compile Include="webservices\xml_handler\budget.php" />
+    <Compile Include="webservices\xml_handler\cielo.php" />
+    <Compile Include="webservices\xml_handler\cmnet.php" />
+    <Compile Include="webservices\xml_handler\exception.php" />
+    <Compile Include="webservices\xml_handler\factory.php" />
+    <Compile Include="webservices\xml_handler\fleetmax.php" />
+    <Compile Include="webservices\xml_handler\foco.php" />
+    <Compile Include="webservices\xml_handler\gmc.php" />
+    <Compile Include="webservices\xml_handler\hertz.php" />
+    <Compile Include="webservices\xml_handler\hertzbr.php" />
+    <Compile Include="webservices\xml_handler\holiday.php" />
+    <Compile Include="webservices\xml_handler\jimpisoft.php" />
+    <Compile Include="webservices\xml_handler\layum.php" />
+    <Compile Include="webservices\xml_handler\localiza.php" />
+    <Compile Include="webservices\xml_handler\maggi.php" />
+    <Compile Include="webservices\xml_handler\movida.php" />
+    <Compile Include="webservices\xml_handler\nacional.php" />
+    <Compile Include="webservices\xml_handler\rdcars.php" />
+    <Compile Include="webservices\xml_handler\seguroviage.php" />
+    <Compile Include="webservices\xml_handler\thrifty.php" />
+    <Compile Include="webservices\xml_handler\unidas.php" />
+    <Compile Include="webservices\xml_handler\yes.php" />
+    <Compile Include="webservices\yes_cancelar.php" />
+    <Compile Include="webservices\yes_pesquisa.php" />
+    <Compile Include="webservices\yes_reserva.php" />
+    <Compile Include="webservices\yes_visualizar.php" />
+    <Compile Include="webservices\_rdcars_pesquisa.php" />
+    <Compile Include="webservices\_rdcars_reserva.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="locadoras\" />
+    <Folder Include="webservices\" />
+    <Folder Include="webservices\webservice_handler\" />
+    <Folder Include="webservices\xml_handler\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="webservices\MJ12_BB4695898F8DE7EDF174480D3E6CA41D.txt" />
+    <Content Include="webservices\teste.xml" />
+  </ItemGroup>
+</Project>

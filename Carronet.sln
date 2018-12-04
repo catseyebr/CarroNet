@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carronet", "Carronet\Carronet.csproj", "{C1808DDA-F73D-4BBF-A512-3F9CFFAB9120}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "CarroNetPhp", "CarroNetPhp\CarroNetPhp.phpproj", "{331813EC-C583-4EAB-92D4-AEDB8BDFCBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1808DDA-F73D-4BBF-A512-3F9CFFAB9120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1808DDA-F73D-4BBF-A512-3F9CFFAB9120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1808DDA-F73D-4BBF-A512-3F9CFFAB9120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1808DDA-F73D-4BBF-A512-3F9CFFAB9120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331813EC-C583-4EAB-92D4-AEDB8BDFCBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331813EC-C583-4EAB-92D4-AEDB8BDFCBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC6B4571-B843-45A7-941A-C7E4F9DCF5B7}
+	EndGlobalSection
+EndGlobal

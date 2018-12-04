@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Carronet.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Carronet_movida_WSOTAService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://xml.movida.com.br/movida/ws3/index.php</Value>
+    </Setting>
+    <Setting Name="Carronet_rdcar_PesquisaLegacy" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://services.rdcar.com.br/PesquisaLegacy.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

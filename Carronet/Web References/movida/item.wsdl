@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ota="http://www.opentravel.org/OTA/2003/05" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.opentravel.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.opentravel.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://www.opentravel.org/OTA/2003/05">
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehAvailRateRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehAvailRateRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehCancelRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehCancelRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehModifyRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehModifyRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRateRuleRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRateRuleRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehResRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehResRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRetResRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehRetResRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocSearchRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocSearchRS.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocDetailRQ.xsd" />
+      <xs:include schemaLocation="https://xml.movida.com.br/movida/ws3/wsdl/OTA_VehLocDetailRS.xsd" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="CheckAvailabilityRequest">
+    <wsdl:part name="OTA_VehAvailRateRQ" element="ota:OTA_VehAvailRateRQ" />
+  </wsdl:message>
+  <wsdl:message name="CheckAvailabilityResponse">
+    <wsdl:part name="OTA_VehAvailRateRS" element="ota:OTA_VehAvailRateRS" />
+  </wsdl:message>
+  <wsdl:message name="RateRuleReservationRequest">
+    <wsdl:part name="OTA_VehRateRuleRQ" element="ota:OTA_VehRateRuleRQ" />
+  </wsdl:message>
+  <wsdl:message name="RateRuleReservationResponse">
+    <wsdl:part name="OTA_VehRateRuleRS" element="ota:OTA_VehRateRuleRS" />
+  </wsdl:message>
+  <wsdl:message name="BookReservationRequest">
+    <wsdl:part name="OTA_VehResRQ" element="ota:OTA_VehResRQ" />
+  </wsdl:message>
+  <wsdl:message name="BookReservationResponse">
+    <wsdl:part name="OTA_VehResRS" element="ota:OTA_VehResRS" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReservationRequest">
+    <wsdl:part name="OTA_VehRetResRQ" element="ota:OTA_VehRetResRQ" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveReservationResponse">
+    <wsdl:part name="OTA_VehRetResRS" element="ota:OTA_VehRetResRS" />
+  </wsdl:message>
+  <wsdl:message name="ModifyReservationRequest">
+    <wsdl:part name="OTA_VehModifyRQ" element="ota:OTA_VehModifyRQ" />
+  </wsdl:message>
+  <wsdl:message name="ModifyReservationResponse">
+    <wsdl:part name="OTA_VehModifyRS" element="ota:OTA_VehModifyRS" />
+  </wsdl:message>
+  <wsdl:message name="CancelReservationRequest">
+    <wsdl:part name="OTA_VehCancelRQ" element="ota:OTA_VehCancelRQ" />
+  </wsdl:message>
+  <wsdl:message name="CancelReservationResponse">
+    <wsdl:part name="OTA_VehCancelRS" element="ota:OTA_VehCancelRS" />
+  </wsdl:message>
+  <wsdl:message name="LocationDetailRequest">
+    <wsdl:part name="OTA_VehLocDetailRQ" element="ota:OTA_VehLocDetailRQ" />
+  </wsdl:message>
+  <wsdl:message name="LocationDetailResponse">
+    <wsdl:part name="OTA_VehLocDetailRS" element="ota:OTA_VehLocDetailRS" />
+  </wsdl:message>
+  <wsdl:message name="LocationSearchRequest">
+    <wsdl:part name="OTA_VehLocSearchRQ" element="ota:OTA_VehLocSearchRQ" />
+  </wsdl:message>
+  <wsdl:message name="LocationSearchResponse">
+    <wsdl:part name="OTA_VehLocSearchRS" element="ota:OTA_VehLocSearchRS" />
+  </wsdl:message>
+  <wsdl:portType name="WSOTAPortType">
+    <wsdl:operation name="CheckAvailability">
+      <wsdl:input message="tns:CheckAvailabilityRequest" />
+      <wsdl:output message="tns:CheckAvailabilityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RateRuleReservation">
+      <wsdl:input message="tns:RateRuleReservationRequest" />
+      <wsdl:output message="tns:RateRuleReservationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="BookReservation">
+      <wsdl:input message="tns:BookReservationRequest" />
+      <wsdl:output message="tns:BookReservationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReservation">
+      <wsdl:input message="tns:RetrieveReservationRequest" />
+      <wsdl:output message="tns:RetrieveReservationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyReservation">
+      <wsdl:input message="tns:ModifyReservationRequest" />
+      <wsdl:output message="tns:ModifyReservationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelReservation">
+      <wsdl:input message="tns:CancelReservationRequest" />
+      <wsdl:output message="tns:CancelReservationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LocationDetail">
+      <wsdl:input message="tns:LocationDetailRequest" />
+      <wsdl:output message="tns:LocationDetailResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LocationSearch">
+      <wsdl:input message="tns:LocationSearchRequest" />
+      <wsdl:output message="tns:LocationSearchResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSOTABinding" type="tns:WSOTAPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CheckAvailability">
+      <soap:operation soapAction="WSOTAAvailability" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RateRuleReservation">
+      <soap:operation soapAction="WSOTARateRuleReservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookReservation">
+      <soap:operation soapAction="WSOTABookReservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveReservation">
+      <soap:operation soapAction="WSOTARetrieveReservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyReservation">
+      <soap:operation soapAction="WSOTAModifyReservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelReservation">
+      <soap:operation soapAction="WSOTACancelReservation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocationDetail">
+      <soap:operation soapAction="WSOTALocationDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LocationSearch">
+      <soap:operation soapAction="WSOTALocationSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSOTAService">
+    <wsdl:port name="WSOTAPort" binding="tns:WSOTABinding">
+      <soap:address location="https://xml.movida.com.br/movida/ws3/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
